@@ -79,6 +79,7 @@ body{
     position:relative;
     left: 70px;
 }
+
 .input-container input:focus ~ label,
 .input-container input:valid ~ label{
     top:-12px;
@@ -89,3 +90,5 @@ body{
 ::placeholder{
     text-align: right ;
 }
+
+
