@@ -1,5 +1,5 @@
 body{ 
-    background: url("../images/bg02.jpg") no-repeat center center fixed;
+    background: url("../images/bg03.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -52,3 +52,26 @@ body{
     margin-right: auto;
     width: 50%;
 }
+
+.welcome-box{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 200);
+    /* background-color: rgba(0, 0, 0, 0.89); */
+    border-radius:5px;
+    padding: 10em 10em 10em;
+    transition: 5s;
+}
+
+.welcome-box p{
+  font-size: 50px;
+  color: white;
+}
+
+.welcome-box:hover{
+  background-color: rgba(42, 44, 51, 0.61);
+  border-radius: 50%;
+}
+
